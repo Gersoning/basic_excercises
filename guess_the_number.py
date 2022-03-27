@@ -1,7 +1,7 @@
 import random
 
 def run():
-    aleatorio = random.randint(1,10)
+    aleatorio = random.randint(1,100)
     print("")
     numero = int(input("Digite un numero del 1 al 100: "))
     while numero != aleatorio:
